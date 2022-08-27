@@ -5,6 +5,8 @@ firstShotDelay: 110
 }
 recoil: 3
 range: 290
+moveWhileCharging: false
+accurateDelay: false
 cooldownTime: 0.03
 consumes: {
 power: 8
@@ -39,7 +41,7 @@ effects: [lancerLaserCharge,
 {
 type: WaveEffect
 sides: 0
-lifetime: 30
+lifetime: 110
 sizeFrom: 16
 sizeTo: 0
 strokeFrom: 3
